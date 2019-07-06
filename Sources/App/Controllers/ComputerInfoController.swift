@@ -103,8 +103,6 @@ extension ComputerInfoController{
             }
             
             
-        } catch Exception.Error(let type, let message) {
-            print(message)
         } catch {
             print("error")
         }
@@ -170,8 +168,6 @@ extension ComputerInfoController{
             
             detail = NewsDetail(id: nil, title: title, time: time, editor: editor, contentArray: contentArray,grids: nil)
         
-        } catch Exception.Error(let type, let message) {
-            print(message)
         } catch {
             print("error")
             
